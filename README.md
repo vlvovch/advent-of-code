@@ -1,4 +1,4 @@
-My C++ solutions to all 25 problems of [Advent of Code](https://adventofcode.com).
+My C++ solutions to various problems of [Advent of Code](https://adventofcode.com).
 Uses lots of STL and sometimes shortcuts.
 Older editions are more readable.
 
