@@ -1,6 +1,6 @@
 My C++ solutions to various problems of [Advent of Code](https://adventofcode.com).
 Uses lots of STL and sometimes shortcuts.
-Older editions are more readable.
+Newer editions are more readable.
 
 ### Usage:
 ```bash
