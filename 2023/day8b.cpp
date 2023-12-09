@@ -70,6 +70,11 @@ int main(int argc, char* argv[])
   // Steps for each starting point
   for(auto& s : rets) {
     cout << s << " ";
+    auto pfac = primeFactorization(s);
+    for(auto& ss : pfac) {
+      cout << ss.first << " " << ss.second << "  ";
+    }
+    cout << endl;
   }
   cout << endl;
 
@@ -82,10 +87,7 @@ int main(int argc, char* argv[])
     }
   }
   
-  auto pfac = primeFactorization(rets[0]);
-  for(auto& s : pfac) {
-    cout << s.first << " " << s.second << endl;
-  }
+  
 
   long long ret = 1;
   for(auto& s : lcm_factorize) {
