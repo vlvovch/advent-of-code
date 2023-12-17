@@ -10,14 +10,14 @@
 
 using namespace std;
 
- map<int,pair<int,int>> dirs = {
-    {0, {0, 1}},  // East
-    {1, {1, 0}},  // South
-    {2, {0, -1}}, // West
-    {3, {-1, 0}}  // North
-  };
+// Use Bellman-Ford algorithm to find shortest path
 
-
+map<int,pair<int,int>> dirs = {
+  {0, {0, 1}},  // East
+  {1, {1, 0}},  // South
+  {2, {0, -1}}, // West
+  {3, {-1, 0}}  // North
+};
 
 vector<string> grid;
 
