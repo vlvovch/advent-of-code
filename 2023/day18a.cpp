@@ -132,7 +132,6 @@ int main(int argc, char* argv[])
         ret++;
       } else {
         if (ray_trace(r, c) & 1) {
-        //if (abs(angle(r, c)) > 1e-6) {
           ngrid[r][c] = '#';
           ret++;
         }
